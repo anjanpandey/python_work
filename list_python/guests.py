@@ -35,6 +35,7 @@ print("Hello! "+guests[-2]+". I will like to invite you for dinner.")
 print("Hello! "+guests[-1]+". I will like to invite you for dinner.")
 
 print(guests)
+print("\nI have "+str(len(guests))+" people coming for dinner.")
 
 print("Sorry! I can only invite two guests for dinner.")
 first_noinvite = guests.pop(0)
@@ -47,6 +48,8 @@ fourth_noinvite = guests.pop(0)
 print("Sorry! "+fourth_noinvite+" I can not invite you!")
 fifth_noinvite = guests.pop(1)
 print("Sorry! "+fifth_noinvite+" I can not invite you!")
+
+print("\nI have only "+str(len(guests))+" people coming in for dinner.")
 
 print("You are still on my list, "+guests[0]+".")
 print("You are still on my list, "+guests[1]+".")
