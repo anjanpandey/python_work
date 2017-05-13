@@ -24,5 +24,7 @@ places.sort(reverse=True)
 print("Now it's sorted in reverse order.")
 print(places)
 
-
+#loop
+for place in places:
+	print(place)
 
